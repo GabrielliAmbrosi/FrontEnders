@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #0bad81;
+}
+
+.login { /* todo o corpo do login */
+   width: 360px;
+   height: min-content;
+   padding: 20px;
+   border-radius: 10px;
+   background: white;
+   box-shadow: 0px 0px 10px 0px;
+}
+
+.login h1 { /* título */
+   font-size: 25px;
+   margin-bottom: 25px;
+}
+
+.login form {
+   font-size: 20px;
+}
+
+.login form .form-group { /* margin entre login e btn "enviar" */
+   margin-bottom: 15px;
+}
+
+
+#esqueci{            /* esqueci minha senha*/
+   text-decoration: none;
+   color: #0bad81;
+   margin-left: 65px;
+}
+
+#cadastro{            /* cadastre-se*/
+   text-decoration: none;
+   color: #0bad81;
+}
+
+#esqueci:hover{
+   text-decoration: underline;
+}
+#cadastro:hover{
+   text-decoration: underline;
+}
+
+
+
+ 
